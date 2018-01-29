@@ -1,6 +1,21 @@
 import React from 'react';
 
 export default class GoogleLogin extends React.Component {
+  const buttonStyle = {
+    width: '300px',
+    // background-color: $theme-color-blue;
+    border: '#ddd solid 1.5px',
+    padding: '12px 15px',
+    text-align: 'center',
+    text-decoration: 'none',
+    display: 'inline-block',
+    border-radius: '3px',
+    font-size: '18px',
+    margin: '5px',
+    img {
+      margin-right: '25px'
+    } 
+  }
   constructor(props) {
     super(props);
     this.state = {
@@ -62,7 +77,7 @@ export default class GoogleLogin extends React.Component {
     props.disabled = this.state.disabled || props.disabled;
 
     return (
-      <button {...props} onClick={this.clickHandler.bind(this)}>
+      <button style={buttonStyle} {...props} onClick={this.clickHandler.bind(this)}>
         {children}
         {buttonText}
       </button>
