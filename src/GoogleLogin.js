@@ -1,6 +1,9 @@
 import React from 'react';
 
-const buttonStyle = {
+
+export default class GoogleLogin extends React.Component {
+
+  const buttonStyle = {
     width: '300px',
     // background-color: $theme-color-blue;
     border: '#ddd solid 1.5px',
@@ -12,8 +15,6 @@ const buttonStyle = {
     font-size: '18px',
     margin: '5px'
   }
-
-export default class GoogleLogin extends React.Component {
   
   constructor(props) {
     super(props);
