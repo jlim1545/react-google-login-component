@@ -1,6 +1,6 @@
 import React from 'react';
 
-var buttonStyle = {
+const buttonStyle = {
     width: '300px',
     // background-color: $theme-color-blue;
     border: '#ddd solid 1.5px',
