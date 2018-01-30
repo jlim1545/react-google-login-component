@@ -76,7 +76,7 @@ export default class GoogleLogin extends React.Component {
     props.disabled = this.state.disabled || props.disabled;
 
     return (
-      <button {...props} onClick={this.clickHandler.bind(this)}>
+      <button {...props} onClick={this.clickHandler.bind(this)} style={buttonStyle}>
         {children}
         {buttonText}
       </button>
