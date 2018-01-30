@@ -3,6 +3,10 @@ import React from 'react';
 
 export default class GoogleLogin extends React.Component {
   
+  const buttonStyle = {
+     width: '300px'
+  };
+
   constructor(props) {
     super(props);
     this.state = {
