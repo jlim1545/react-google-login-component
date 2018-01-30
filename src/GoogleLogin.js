@@ -1,19 +1,20 @@
 import React from 'react';
 
-const buttonStyle = {
-  width: '300px',
-  // background-color: $theme-color-blue;
-  border: '#ddd solid 1.5px',
-  padding: '12px 15px',
-  text-align: 'center',
-  text-decoration: 'none',
-  display: 'inline-block',
-  border-radius: '3px',
-  font-size: '18px',
-  margin: '5px'
-}
+
 
 export default class GoogleLogin extends React.Component {
+  var buttonStyle = {
+    width: '300px',
+    // background-color: $theme-color-blue;
+    border: '#ddd solid 1.5px',
+    padding: '12px 15px',
+    text-align: 'center',
+    text-decoration: 'none',
+    display: 'inline-block',
+    border-radius: '3px',
+    font-size: '18px',
+    margin: '5px'
+  }
 
   constructor(props) {
     super(props);
